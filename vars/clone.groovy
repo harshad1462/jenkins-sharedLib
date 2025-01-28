@@ -1,4 +1,5 @@
-def colne(){
+def colne(string url,string branch){
     echo 'cloning the code'
-    git url: "https://github.com/harshad1462/myphpapp.git", branch:"main"
+    git url: url, branch:branch
+     echo 'cloning has done'
 }
