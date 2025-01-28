@@ -1,5 +1,5 @@
-def clone(url, branch){
+def clone(){
     echo "working"
-    echo "${url}"
+    // echo "${url}"
     // git url: "${url}", branch: "${branch}"
 }
