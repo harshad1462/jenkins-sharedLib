@@ -1,3 +1,3 @@
 def clone(String url, String branch){
-    git url: "$url", branch: "$branch"
+    git clone url: "$url", branch: "$branch"
 }
